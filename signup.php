@@ -12,6 +12,7 @@ include 'libs/load.php';
 </head>
 
 <body>
+	
 	<?load_template('__header');?>
 	<main>
 

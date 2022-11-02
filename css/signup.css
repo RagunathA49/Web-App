@@ -43,13 +43,13 @@
     border-top-right-radius: 0;
 }
 
-.form-signup input[type="username"] {
+.form-signup input[name="username"] {
     margin-bottom: -1px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.form-signup input[type="phone"] {
+.form-signup input[name="phone"] {
     margin-bottom: -1px;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
