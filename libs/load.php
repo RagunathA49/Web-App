@@ -5,7 +5,7 @@ function load_template($name)
     include $_SERVER['DOCUMENT_ROOT']."/app/__templates/$name.php";
 }
 
-
+//github push
 
 function validated_credentials($username,$password)
 {
