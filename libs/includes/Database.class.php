@@ -19,7 +19,7 @@ class Database{
           }
           else
           {
-            printf("New connection ");
+            // printf("New connection ");
             Database::$conn = $connection;// replacing null iwth connection 
             return Database::$conn;
           }

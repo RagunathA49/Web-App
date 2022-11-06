@@ -2,7 +2,7 @@
 $username = $_POST['email_address'];
 $password = $_POST['password'];
 
-$result = validated_credentials($username, $password);
+$result = User::login($username, $password);
 
 if ($result) {
     ?>
@@ -16,13 +16,6 @@ if ($result) {
 <?php
 } else {
     ?>
-
-
-
-
-
-
-
 <main class="form-signin">
 	<form method="post" action="login.php">
 		<img class="mb-4"

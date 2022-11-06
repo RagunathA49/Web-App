@@ -15,7 +15,6 @@ include 'libs/load.php';
 	
 	<?load_template('__header');?>
 	<main>
-
 		<?load_template('__signup');?>
 	</main>
 

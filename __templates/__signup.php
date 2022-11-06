@@ -1,17 +1,21 @@
 <?php
+
 $signup = false;
+
 if (isset($_POST['username']) and isset($_POST['password']) and !empty($_POST['password']) and isset($_POST['email_address']) and isset($_POST['phone'])) {
     $username=$_POST['username'];
     $phone=$_POST['phone'];
     $email=$_POST['email_address'];
     $password=$_POST['password'];
     $error=User::signup($username, $password, $email, $phone);
+   
     $signup=true;
 }
 ?>
 
 <?php
     if ($signup) {
+        print_r($error);
         if (!$error) {
             ?>
 <main class="container">
@@ -26,6 +30,7 @@ if (isset($_POST['username']) and isset($_POST['password']) and !empty($_POST['p
             ?>
 <main class="container">
     <div class="bg-light p-5 rounded mt-3">
+        
         <h1>Signup Fail</h1>
         <p class="lead">Something went wrong, <?=$error?>
         </p>

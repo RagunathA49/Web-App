@@ -12,13 +12,13 @@ function load_template($name)
 
 //github push
 
-function validated_credentials($username,$password)
-{
-    if ($username == "ragu@gmail.com" and $password == "password")
-        return true;
-    else
-        return false;  
-}
+// function validated_credentials($username,$password)
+// {
+//     if ($username == "ragu@gmail.com" and $password == "password")
+//         return true;
+//     else
+//         return false;  
+// }
 // function signup($user , $pass,$email, $phone)
 // {
 //   $conn = Database::getConnection();
