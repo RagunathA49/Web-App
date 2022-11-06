@@ -1,7 +1,7 @@
 <?php
 include 'libs/load.php';
-
-$username = "ragunath";
+// print_r($_SESSION);
+$username = "admin";
 $password = "ragunath";
 $result = null;
 if(isset($_GET['logout']))

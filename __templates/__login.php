@@ -10,7 +10,6 @@ if ($result) {
 	<div class="bg-light p-5 rounded mt-3">
 		<h1>LOGIN SUCESS</h1>
 		<p class="lead">This example is to LOgin page</p>
-		<a class="btn btn-lg btn-primary" href="../components/navbar/" role="button">View navbar docs »</a>
 	</div>
 </main>
 <?php
